@@ -14,16 +14,5 @@ const length = array => {
 }
 
 const friend = ["Marku", "Buffetb", "Bill", "Musk"]
-// console.log(length(friend));
+console.log(length(friend));
 
-const squareSum = arr => {
-    const sum = []
-    for(const num of arr){
-        const square = num * num
-        sum.push(square)
-    }
-    return sum
-
-}
-const numbers = [2, 4, 3];
-console.log(squareSum(numbers))

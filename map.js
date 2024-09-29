@@ -4,7 +4,7 @@ function  double (num){
 }
 
 const result = number.map(double);
-console.log(result)
+// console.log(result)
 const result2 = number.map(num => num * 2);
 // console.log(result2)
 
@@ -19,7 +19,7 @@ let output = nums.filter(n => n%2);
 
 // what will be the value of y? 
 
-const {x, y, z} = {x: 1, y1: 2, z: 3};
+const {x, y, z} = {x: 1, y: 2, z: 3};
 // console.log(y)
 
 const [a, b] = [1,2,3,4,45,5]; 
