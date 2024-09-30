@@ -6,7 +6,7 @@ const actor =  {
 const name = actor.name;
 // console.log(name)
 
-// destructuring a object using a property as a variable to get object property value
+// destructuring a object using a key as a variable to get object property value
 const {age, money} = actor;
 // console.log(age)
 // console.log(money)
